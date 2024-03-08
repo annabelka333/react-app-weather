@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <p>
+        <footer>
           This project is created by{" "}
           <a href="https://www.instagram.com/vediashkyna/" target="blank">
             Anna Vediashkyna
@@ -20,7 +20,7 @@ export default function App() {
           >
             {""} open-source on GitHub
           </a>
-        </p>
+        </footer>
       </div>
     </div>
   );
