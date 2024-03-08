@@ -29,10 +29,16 @@
   line-height: 64px;
   color: rgb(33, 33, 33);
   font-weight: 400;
-  margin-top: 10px;
 }
 .Weather img {
   height: 64px;
-
   display: inline-block;
+}
+
+.Weather.unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -32px;
+  color: rgb(35, 35, 35);
 }
