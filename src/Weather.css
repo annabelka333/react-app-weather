@@ -33,12 +33,15 @@
 .Weather img {
   height: 64px;
   display: inline-block;
+  margin-right: 10px;
 }
 
-.Weather.unit {
+.Weather .unit {
   font-size: 16px;
   font-weight: 400;
   position: relative;
-  top: -32px;
+  top: -34px;
+  margin-left: 5px;
   color: rgb(35, 35, 35);
+  line-height: 1;
 }

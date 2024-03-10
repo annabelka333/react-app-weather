@@ -31,15 +31,17 @@ export default function Weather() {
       </ul>
       <div className="row mt-3">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/64/snow_s_rain.png
+          <div className="d-flex">
+            <img
+              src="https://ssl.gstatic.com/onebox/weather/64/snow_s_rain.png
             "
-            alt="Rain and Snow"
-            className="float-left"
-          />{" "}
-          <div className="float-left mr-2">
-            <span className="temperature">0</span>
-            <span className="unit">°C</span>
+              alt="Rain and Snow"
+              className="float-left"
+            />{" "}
+            <div className="float-left mr-2">
+              <span className="temperature">0</span>
+              <span className="unit">°C</span>
+            </div>
           </div>
         </div>
         <div className="col-6">
