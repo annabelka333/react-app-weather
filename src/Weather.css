@@ -45,3 +45,7 @@
   color: rgb(35, 35, 35);
   line-height: 1;
 }
+.Weather a {
+  text-decoration: none;
+  color: black;
+}
