@@ -1,6 +1,8 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 .App footer {
   font-size: 11px;
