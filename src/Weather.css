@@ -20,12 +20,12 @@
   list-style: none;
 }
 .Weather ul {
-  margin: 0;
+  margin: 3px;
   padding: 0;
 }
 .Weather .temperature {
   font-weight: bold;
-  font-size: 64px;
+  font-size: 48px;
   line-height: 64px;
   color: rgb(33, 33, 33);
   font-weight: 400;
